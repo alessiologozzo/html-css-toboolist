@@ -1,0 +1,29 @@
+/* general */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sfondo_bianco {
+  background-color: white;
+}
+
+/* /general */
+
+body {
+  background-color: #f6f8f9;
+}
+
+header {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: baseline;
+  transform: translate(0, -25%);
+}
