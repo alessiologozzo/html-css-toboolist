@@ -31,19 +31,13 @@ h2 {
 
 main {
   width: 60vw;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  padding: 5px 60px;
+  margin: 30px auto 20px;
+  padding: 10px 0 5px 60px;
 }
 
 hr {
   border: 1px solid #f6f8f9;
-  margin: 20px -60px;
-}
-
-section {
-  margin-top: 30px;
+  margin: 10px -60px 0 -60px;
 }
 
 .sfondo_blu {
@@ -106,6 +100,12 @@ section {
   padding: 7px;
 }
 
+.smussato,
+.tondo,
+.ovale {
+  display: inline-block;
+}
+
 .bordi {
   box-shadow: 0 0 1px inset;
 }
@@ -120,6 +120,6 @@ section {
 }
 
 .margine_sezione {
-  margin_top: 35px;
+  margin-top: 40px;
 }
 /* /main */
