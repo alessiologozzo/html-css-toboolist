@@ -18,9 +18,13 @@ header {
 }
 
 h1 {
-  display: inline-block;
   font-size: 40px;
   transform: translate(0, -25%);
+}
+
+h1,
+h2 {
+  display: inline-block;
 }
 
 /* main */
@@ -49,6 +53,18 @@ section {
   background-color: white;
 }
 
+.sfondo_lavanda {
+  background-color: #9c72e4;
+}
+
+.sfondo_verde {
+  background-color: #64c0a9;
+}
+
+.sfondo_arancione {
+  background-color: #f19d32;
+}
+
 .testo_bianco {
   color: white;
 }
@@ -58,7 +74,11 @@ section {
 }
 
 .testo_verde {
-  color: #60bea6;
+  color: #64c0a9;
+}
+
+.testo_rosso {
+  color: red;
 }
 
 .smussato {
@@ -81,16 +101,16 @@ section {
   box-shadow: 0 0 1px inset;
 }
 
-h2 {
-  display: inline-block;
-}
-
 .triangolino {
   font-size: 25px;
   vertical-align: middle;
 }
 
-.margine_elementi {
-  margin-top: 10px;
+.margine_elemento {
+  margin-top: 20px;
+}
+
+.margine_sezione {
+  margin_top: 35px;
 }
 /* /main */
